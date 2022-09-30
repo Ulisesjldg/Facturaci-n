@@ -1,0 +1,38 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+.titulo{
+    text-align: center;
+    color:blueviolet;
+}
+.box{
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding: 10px;    
+}
+.logo-empresa{
+    width:200px;
+}
+.empresa{
+    width:400px;
+}
+.factura{
+    width:200px;
+}
+header{
+    width: 100%;
+    display: flex;
+}
+hr{
+    border: 2px solid red;
+}
+footer{
+    text-align: center;
+}

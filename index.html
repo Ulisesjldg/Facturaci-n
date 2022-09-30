@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel=" shortcut icon" href="img/logo.webp">
+    <script src="js/controller.js"></script>
+    <title>Facturacion</title>  
+
+</head>
+<body>
+    <div class="box">
+        <header>
+            <div class="logo-empresa">
+                <img src="img/logo.webp" alt="" width="150">
+            </div>
+            <div class="empresa">
+                <h1>Comercializadora FOX</h1>
+                <h3>Nit: 80595470-5</h3>
+                <p>Malambo Cra 45-40 No 23 Tel. 3156987145</p>
+            </div>
+            <div class="factura">
+                <h2>Factura No. <strong>4587</strong></h2>
+                <h3><script>fecha();</script></h3>
+            </div>            
+        </header>
+        <hr>
+        <section>
+            <button onclick="{DigitarCliente()}">Digitar Informacion de Cliente</button>
+            <div>
+                <label>Nombre Cliente:</label><input type="text"/><br>
+                <label>Identificacion:</label><input type="text" /><br>
+                <label>Telefono:</label><input type="text"/><br>
+                <label>Direccion: </label><input type="text" />
+            </div>
+        </section>
+        
+        <hr>
+        <footer>
+            <p>Agradecemos su Confianza en Nosotros<br>
+                Direccion: Malambo Cra 45-40 No 23 Tel. 3156987145
+            </p>
+        </footer>
+
+    </div>
+    
+
+
+</body>
+</html>
